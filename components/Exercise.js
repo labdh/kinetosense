@@ -6,12 +6,12 @@ const height = Dimensions.get('window').height
 const Exercise = ({uri}) => {
   return (
     <TouchableOpacity style={styles.container}>
-        <View style={{flex: 1,}}>
+        <View style={{flex: 1, alignItems: 'center'}}>
             <Image style={{height: 0.1*height, width: 0.3*width, borderRadius: 10, borderWidth: 1}} source={require('../assets/exercises/Back_exercises/back_exercises.png')} />
         </View>
         <View style={{flex: 1,}}>
-            <Text style={{ textAlign: "center", fontWeight: 600, fontSize: 16, }}>Bent-over Dumbbell</Text>
-            <Text style={{ textAlign: "center", fontWeight: 400, fontSize: 13 }}>5 min</Text>
+            <Text style={{ textAlign: "left", fontWeight: 600, fontSize: 16, }}>Bent-over Dumbbell</Text>
+            <Text style={{ textAlign: "left", fontWeight: 400, fontSize: 13 }}>5 min</Text>
         </View>
     </TouchableOpacity>
     

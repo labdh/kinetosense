@@ -7,7 +7,7 @@ import { Ionicons } from '@expo/vector-icons';
 const ExerciseDetail = () => {
     return (
         <View style={styles.container}>
-            <TopBar name={"Chest Exercises"} />
+            <TopBar name={"Chest Exercises"} show={false} />
             <View style={{ alignItems: 'center', marginVertical: 0.01 * height, overflow: 'hidden', width: 0.9 * width, borderRadius: 10, borderWidth: 1 }}>
                 <ImageBackground style={{ resizeMode: 'cover', width: 0.9 * width, borderRadius: 50 }} source={require('../assets/exercises/Back_exercises/back_exercises.png')}>
                     <View style={{ alignItems: 'center', height: 0.2 * height, width: 0.9 * width, backgroundColor: 'rgba(255,255,255,0.3)', textAlign: 'center', justifyContent: 'center', }}>

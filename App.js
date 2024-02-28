@@ -33,25 +33,33 @@ function MyTabs() {
       <Tab.Screen name="Home" component={Home} options={{
         tabBarLabel: '',
         tabBarIcon: () => (
-          <Entypo name="home" size={24} color="black" />
+          <View style={{borderRadius: 30, padding: 4, backgroundColor: 'rgba(255,165,0,0.4)' }}>
+            <Entypo name="home" size={24} color="black" />
+          </View>
         ),
       }} />
       <Tab.Screen name="Exercise" component={Exercise} options={{
         tabBarLabel: '',
         tabBarIcon: () => (
-          <Ionicons name="bag-sharp" size={24} color="black" />
+          <View style={{borderRadius: 30, padding: 4, backgroundColor: 'rgba(255,165,0,0.4)' }}>
+            <Ionicons name="bag-sharp" size={24} color="black" />
+          </View>
         ),
       }} />
       <Tab.Screen name="ExerciseDetail" component={ExerciseDetail} options={{        
         tabBarLabel: '',
         tabBarIcon: () => (
-          <Ionicons name="bag-sharp" size={24} color="black" />
+          <View style={{borderRadius: 30, padding: 4, backgroundColor: 'rgba(255,165,0,0.4)' }}>
+            <Ionicons name="bag-sharp" size={24} color="black" />
+          </View>
         ),
       }} />
       <Tab.Screen name="Settings1" component={SettingsScreen} options={{
         tabBarLabel: '',
         tabBarIcon: () => (
-          <Ionicons name="bag-sharp" size={24} color="black" />
+          <View style={{borderRadius: 30, padding: 4, backgroundColor: 'rgba(255,165,0,0.4)' }}>
+            <Ionicons name="bag-sharp" size={24} color="black" />
+          </View>
         ),
       }} />
     </Tab.Navigator>
