@@ -10,7 +10,7 @@ const height = Dimensions.get("window").height;
 const Home = () => {
   return (
       <View style={styles.container}>
-        <TopBar />
+        <TopBar name={"Welcome"} />
         <View style={{width: width, padding: 0.05*width}}>
             <Text style={{fontWeight: 700, fontSize: 20}}>Hey! Piyush</Text>
         </View>
@@ -29,5 +29,6 @@ const styles = StyleSheet.create({
         backgroundColor: '#fff',
         alignItems: 'center',
         justifyContent: 'center',
+        // height: '100vh',
     },
 })

@@ -5,12 +5,12 @@ const height = Dimensions.get("window").height;
 import { AntDesign } from '@expo/vector-icons';
 import { MaterialCommunityIcons } from '@expo/vector-icons';
 
-const TopBar = () => {
+const TopBar = ({name, show}) => {
     return (
         <SafeAreaView style={styles.container}>
             <AntDesign name="arrowleft" size={24} color="black" />
             <View style={{  }}>
-                <Text style={{fontWeight: 700, fontSize: 25, textAlign: 'center'}}>Welcome</Text>
+                <Text style={{fontWeight: 700, fontSize: 25, textAlign: 'center'}}>{name}</Text>
             </View>
             <MaterialCommunityIcons name="bell-badge-outline" size={24} color="black" />
         </SafeAreaView>
